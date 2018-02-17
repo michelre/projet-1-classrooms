@@ -1,0 +1,434 @@
+/* all css*/
+										/* styles police */				
+@font-face {
+    font-family: 'robotoblack';
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Black-webfont.eot');
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Black-webfont.woff2') format('woff2'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Black-webfont.woff') format('woff'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Black-webfont.ttf') format('truetype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Black-webfont.svg#robotoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotoblack_italic';
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-BlackItalic-webfont.eot');
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-BlackItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-BlackItalic-webfont.woff2') format('woff2'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-BlackItalic-webfont.woff') format('woff'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-BlackItalic-webfont.ttf') format('truetype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-BlackItalic-webfont.svg#robotoblack_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotobold';
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Bold-webfont.eot');
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Bold-webfont.woff2') format('woff2'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Bold-webfont.woff') format('woff'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotobold_italic';
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-BoldItalic-webfont.eot');
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-BoldItalic-webfont.woff2') format('woff2'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-BoldItalic-webfont.woff') format('woff'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-BoldItalic-webfont.ttf') format('truetype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-BoldItalic-webfont.svg#robotobold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Italic-webfont.eot');
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Italic-webfont.woff2') format('woff2'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Italic-webfont.woff') format('woff'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Italic-webfont.ttf') format('truetype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Italic-webfont.svg#robotoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Light-webfont.eot');
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Light-webfont.woff2') format('woff2'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Light-webfont.woff') format('woff'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Light-webfont.ttf') format('truetype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotolight_italic';
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-LightItalic-webfont.eot');
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-LightItalic-webfont.woff2') format('woff2'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-LightItalic-webfont.woff') format('woff'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-LightItalic-webfont.ttf') format('truetype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-LightItalic-webfont.svg#robotolight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotomedium';
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Medium-webfont.eot');
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Medium-webfont.woff2') format('woff2'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Medium-webfont.woff') format('woff'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Medium-webfont.ttf') format('truetype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotomedium_italic';
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-MediumItalic-webfont.eot');
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-MediumItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-MediumItalic-webfont.woff2') format('woff2'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-MediumItalic-webfont.woff') format('woff'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-MediumItalic-webfont.ttf') format('truetype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-MediumItalic-webfont.svg#robotomedium_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Regular-webfont.eot');
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Regular-webfont.woff2') format('woff2'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotothin';
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Thin-webfont.eot');
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Thin-webfont.woff2') format('woff2'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Thin-webfont.woff') format('woff'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Thin-webfont.ttf') format('truetype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-Thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotothin_italic';
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-ThinItalic-webfont.eot');
+    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-ThinItalic-webfont.woff2') format('woff2'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-ThinItalic-webfont.woff') format('woff'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-ThinItalic-webfont.ttf') format('truetype'),
+         url('projet 1 classrooms/webagency_images/fonts/Roboto-ThinItalic-webfont.svg#robotothin_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+								/* taille + color des paragraphe ,titres , ect.. */
+body
+{
+	font-family: 'robotoregular'; Arial;
+	width:99%;
+}
+h1
+{
+    margin-bottom: 30px;
+	text-align: center;
+}
+h1+p
+{
+    margin-top: 30px;
+	text-align: center;
+}
+.menu
+{
+	font-size: 20px;
+}
+span
+{
+    color: #3491B2;
+    font-size: 25px;
+}
+
+
+
+
+
+								/* css pour le header */
+.header
+{
+	height: 700px;
+}
+.header-logo
+{
+    position: absolute;
+	display: block;
+	float: left;
+	padding-top: 30px;
+}
+.textslider + h3
+{
+    opacity: 1;
+    border: 2px solid #5CADD3;
+    background-color: #5CADD3;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+                                    /*MENU*/
+
+a /* a pour les liens */
+{
+    text-decoration: none;
+    color: black;
+}
+.menu
+{   
+    float: right;
+	text-align: right;
+	margin-top: 60px;
+
+}
+.menu-item-is-active
+{
+    padding-top: 50px;
+    border-top: 2px solid #5CADD3;
+	margin-right: 25px;
+}
+.menu-item
+{
+	margin-right: 25px;
+}
+
+                            /*SLIDER*/
+.slider
+{
+    margin-left: 120px;
+    margin-top: 100px;
+    opacity: 1;
+}                            
+.texteslider, .texteslider + p, .texteslider + h2
+{
+  
+    color: white;
+    margin-top: -350px;
+    margin-left: 200px;
+}
+.texteslider + p
+{
+    font-size: 16px;
+    
+}
+.texteslider + h2
+{
+    font-size: 20px;
+}  
+                            /*  Colonne SERVICES*/
+.contenu_1
+{
+    clear: both;
+    height:500px;
+    width: 99%;
+}
+article
+{
+    padding-top:50px;
+    float: left;
+    margin-left: 300px;
+}
+#icone
+{
+    position: absolute;
+    margin-left: 845px;
+}
+.icone1
+{
+     margin-right: 20px;
+     float: left;
+}
+.icone2
+{
+     margin-right: 20px;
+     float: left;
+}
+.icone3
+{
+     margin-right: 20px;
+     float: left;
+}
+aside
+{
+    float: right;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+ul
+{
+    list-style-type: none;
+}
+
+                                /*PROJETS*/
+
+.contenu_2
+{
+    clear: both;
+    height: auto;
+    width: auto;
+}
+table
+{
+    margin:auto;
+    color:black;
+    border-collapse: collapse;
+}
+td
+{
+
+    text-align: center;
+    background-color: #E5E5E5;
+}
+.allworks-is-active
+{
+    font-size: 20px;
+    background-color: #5CADD3;
+    color: white;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    box-shadow: 0px 3px #468CAD;
+    border-bottom-left-radius: 5px ;
+    border-top-left-radius: 5px;
+}
+.creative
+{
+    font-size: 20px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+.corporate
+{
+    font-size: 20px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+.portfolio
+{
+    font-size: 20px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+.webagency_images
+{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+                                    /* INFO CONTACT*/
+.contenu_3
+{
+
+    padding-top: 100px;
+    height: 737px;
+    width: auto;
+}
+.fond_contact
+{
+
+    display:flex;
+    position: relative;
+    padding-top: 200px;
+    margin: auto;
+    opacity: 0.5;
+}
+.cadre
+{   
+    background-color: #F5F5DC;
+    float: right;
+    margin-right: 100px;
+    padding-left: 20px;
+    display: block;
+    height: 600px;
+    width: 350px;
+    
+    opacity: 0.9;
+}
+.position_fond
+{
+    position: absolute;
+}
+.position_cadre
+{
+    position: relative;
+    padding-right: 50px;
+    padding-top: 100px;
+}
+h2 + p
+{
+    padding-top: 10px;
+}
+.align
+{   
+    display: block;
+    text-align: justify;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+.align_1
+{
+    border-radius: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+.align_2
+{
+    border-radius: 5px;
+    border-bottom-left-radius: 5px ;
+    border-top-left-radius: 5px;
+    background-color: #5CADD3;
+    box-shadow: 0px 3px #468CAD;
+    color: white;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    opacity: 1;
+}
+.trait
+{
+   display: inline;
+   text-decoration: underline dotted;
+}
