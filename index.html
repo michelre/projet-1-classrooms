@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="css/all.css"/>
+  <title>WEB AGENCY </title>
+</head>
+
+<body>
+<header class="header" id="home">
+  <a href="#" class="header-logo">
+    <img src="webagency_images/images/logo.png" alt="logo"><!--LOGO -->
+  </a>
+  <nav class="menu"><!--Menu de navigation -->
+    <a href="#home" class="menu-item-is-active">Accueil</a>
+    <a href="#service" class="menu-item">Service</a>
+    <a href="#portfolio" class="menu-item">Portfolio</a>
+    <a href="#contact" class="menu-item">Contact</a>
+  </nav>
+  <br/><!-- fin class navigation-->
+
+  <div class="slider">
+    <img src="webagency_images/images/slider/bg1.jpg"><!--slider-->
+    <div class=texteslider>
+      <span>WEBAGENCY</span> : L'AGENCE DE TOUS<br/>VOS PROJETS !<br/>
+      <p>Vous avez un projet web ?La WebAgency vous aide à le réaliser !</p>
+
+      <h3>Plus d'infos</h3>
+    </div>
+    <div class="slider-icon">
+      <i class="fas fa-chevron-left"></i>
+    </div>
+    <div class="border-bottom-slider"></div>
+  </div><!-- fin div slider-->
+</header><!-- fin div header-->
+
+
+<div class="contenu_1" id="service">
+  <section>
+    <h1>NOS SERVICES
+      <div id="icone"><img src="webagency_images/images/icone 0.png"></div>
+    </h1>
+    <p>Voici les differents services que nous proposons</p>
+
+    <article><!--colonne avec l'image-->
+      <img src="webagency_images/images/main-feature.png">
+    </article><!--fin de la colonne avec l'image-->
+    <aside><!--2eme colonne avec le texte-->
+      <div class="icone1"><img src="webagency_images/images/icone 1.png"></div>
+      <h3>UX design</h3>
+      <ul>
+        <li>Avec de l'UX design nous vous offrirons une <strong>utilisation optimal</strong> <br/>pour que vos clients
+          puissient profiter pleinement de votre site
+        </li>
+      </ul>
+      <div class="icone2"><img src="webagency_images/images/icone 2.png"></div>
+      <h3>UI design</h3>
+      <ul>
+        <li>Avec le Service UI design, nous vous offirons un site ou votre clientèle sera <strong>subjuguer par son
+          élégance</strong><br/>Nous lui ferons vivre une experience sur votre site qui lui donnera envie de revenir au
+          premier coup d'oeil
+        </li>
+      </ul>
+      <div class="icone3"><img src="webagency_images/images/icone 3.png"></div>
+      <h3>SEO</h3>
+      <ul>
+        <li>Notre service SEO fera en sorte que votre site soit <strong>visible</strong> au maximum <br/> Grace a ce
+          service vous serez parmis les mieux référencé sur internet
+        </li>
+      </ul>
+    </aside><!--fin de la 2eme colonne avec le texte-->
+  </section>
+</div><!-- fin div contenu_1-->
+
+<div class="contenu_2" id="portfolio">
+  <section>
+    <h1>NOS PROJETS</h1>
+
+    <p>Voici des exemples de nos projets déjà réaliser</p>
+
+    <TABLE>
+      <tr>
+        <td class="allworks-is-active">All works</td>
+        <td class="creative">Creative</td>
+        <td class="corporate">Corporate</td>
+        <td class="portfolio">Portfolio</td>
+      </tr>
+    </TABLE>
+    <div class="webagency_images">
+      <img src="webagency_images/images/portfolio/01.jpg">
+      <img src="webagency_images/images/portfolio/02.jpg">
+      <img src="webagency_images/images/portfolio/03.jpg">
+      <img src="webagency_images/images/portfolio/04.jpg">
+      <img src="webagency_images/images/portfolio/05.jpg">
+      <img src="webagency_images/images/portfolio/06.jpg">
+      <img src="webagency_images/images/portfolio/07.jpg">
+    </div><!-- fin div webagency_images-->
+  </section>
+</div><!-- fin div contenu_2-->
+
+<!--3eme groupe-->
+<div class="contenu_3" id="contact">
+  <section>
+    <div class="position_fond"><!--image de fond-->
+      <img src="webagency_images/images/fond_contact.png">
+    </div>
+    <div class="fond contact"><!--creation du fond de contact-->
+      <div class="position_cadre"><!--positionnement de cadre-->
+        <div class="cadre">  <!--caracterisque du cadre-->
+          <h2>Contact info</h2>
+          <p>Webagency SAS<br/>25 Rue d'Hauteville 75010 Paris<br/>
+          <div class=trait>Tel:</div>
+          01 02 03 04 05</p>
+          <form method="post" action="traitement.php">
+
+            <div class="align">  <!--alignement des lignes du formulaire-->
+              <p>
+                <input class="align_1" type="text" name="name" id="name" placeholder="  Name" size="42"/>
+                <input class="align" type="email" name="email" id="email" placeholder="  Email" size="42"/>
+                <input class="align" type="text" name="subject" id="subject" placeholder="  Subject" size="42"/>
+                <textarea class="align" name="Message" id="Message" placeholder=" Message" rows="12"
+                          cols="45"></textarea>
+                <input class="align_2" type="submit" value="Send Message">
+              </p>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+</body>
+</html>

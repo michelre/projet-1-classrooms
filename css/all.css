@@ -1,150 +1,150 @@
 /* all css*/
-										/* styles police */				
+										/* styles police */
 @font-face {
     font-family: 'robotoblack';
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Black-webfont.eot');
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Black-webfont.woff2') format('woff2'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Black-webfont.woff') format('woff'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Black-webfont.ttf') format('truetype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Black-webfont.svg#robotoblack') format('svg');
+    src: url('../webagency_images/fonts/Roboto-Black-webfont.eot');
+    src: url('../webagency_images/fonts/Roboto-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webagency_images/fonts/Roboto-Black-webfont.woff2') format('woff2'),
+         url('../webagency_images/fonts/Roboto-Black-webfont.woff') format('woff'),
+         url('../webagency_images/fonts/Roboto-Black-webfont.ttf') format('truetype'),
+         url('../webagency_images/fonts/Roboto-Black-webfont.svg#robotoblack') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
+
 @font-face {
     font-family: 'robotoblack_italic';
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-BlackItalic-webfont.eot');
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-BlackItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-BlackItalic-webfont.woff2') format('woff2'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-BlackItalic-webfont.woff') format('woff'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-BlackItalic-webfont.ttf') format('truetype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-BlackItalic-webfont.svg#robotoblack_italic') format('svg');
+    src: url('../webagency_images/fonts/Roboto-BlackItalic-webfont.eot');
+    src: url('../webagency_images/fonts/Roboto-BlackItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webagency_images/fonts/Roboto-BlackItalic-webfont.woff2') format('woff2'),
+         url('../webagency_images/fonts/Roboto-BlackItalic-webfont.woff') format('woff'),
+         url('../webagency_images/fonts/Roboto-BlackItalic-webfont.ttf') format('truetype'),
+         url('../webagency_images/fonts/Roboto-BlackItalic-webfont.svg#robotoblack_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'robotobold';
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Bold-webfont.eot');
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Bold-webfont.woff2') format('woff2'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Bold-webfont.woff') format('woff'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Bold-webfont.ttf') format('truetype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Bold-webfont.svg#robotobold') format('svg');
+    src: url('../webagency_images/fonts/Roboto-Bold-webfont.eot');
+    src: url('../webagency_images/fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webagency_images/fonts/Roboto-Bold-webfont.woff2') format('woff2'),
+         url('../webagency_images/fonts/Roboto-Bold-webfont.woff') format('woff'),
+         url('../webagency_images/fonts/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('../webagency_images/fonts/Roboto-Bold-webfont.svg#robotobold') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'robotobold_italic';
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-BoldItalic-webfont.eot');
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-BoldItalic-webfont.woff2') format('woff2'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-BoldItalic-webfont.woff') format('woff'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-BoldItalic-webfont.ttf') format('truetype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-BoldItalic-webfont.svg#robotobold_italic') format('svg');
+    src: url('../webagency_images/fonts/Roboto-BoldItalic-webfont.eot');
+    src: url('../webagency_images/fonts/Roboto-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webagency_images/fonts/Roboto-BoldItalic-webfont.woff2') format('woff2'),
+         url('../webagency_images/fonts/Roboto-BoldItalic-webfont.woff') format('woff'),
+         url('../webagency_images/fonts/Roboto-BoldItalic-webfont.ttf') format('truetype'),
+         url('../webagency_images/fonts/Roboto-BoldItalic-webfont.svg#robotobold_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'robotoitalic';
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Italic-webfont.eot');
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Italic-webfont.woff2') format('woff2'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Italic-webfont.woff') format('woff'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Italic-webfont.ttf') format('truetype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Italic-webfont.svg#robotoitalic') format('svg');
+    src: url('../webagency_images/fonts/Roboto-Italic-webfont.eot');
+    src: url('../webagency_images/fonts/Roboto-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webagency_images/fonts/Roboto-Italic-webfont.woff2') format('woff2'),
+         url('../webagency_images/fonts/Roboto-Italic-webfont.woff') format('woff'),
+         url('../webagency_images/fonts/Roboto-Italic-webfont.ttf') format('truetype'),
+         url('../webagency_images/fonts/Roboto-Italic-webfont.svg#robotoitalic') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'robotolight';
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Light-webfont.eot');
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Light-webfont.woff2') format('woff2'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Light-webfont.woff') format('woff'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Light-webfont.ttf') format('truetype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    src: url('../webagency_images/fonts/Roboto-Light-webfont.eot');
+    src: url('../webagency_images/fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webagency_images/fonts/Roboto-Light-webfont.woff2') format('woff2'),
+         url('../webagency_images/fonts/Roboto-Light-webfont.woff') format('woff'),
+         url('../webagency_images/fonts/Roboto-Light-webfont.ttf') format('truetype'),
+         url('../webagency_images/fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'robotolight_italic';
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-LightItalic-webfont.eot');
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-LightItalic-webfont.woff2') format('woff2'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-LightItalic-webfont.woff') format('woff'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-LightItalic-webfont.ttf') format('truetype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-LightItalic-webfont.svg#robotolight_italic') format('svg');
+    src: url('../webagency_images/fonts/Roboto-LightItalic-webfont.eot');
+    src: url('../webagency_images/fonts/Roboto-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webagency_images/fonts/Roboto-LightItalic-webfont.woff2') format('woff2'),
+         url('../webagency_images/fonts/Roboto-LightItalic-webfont.woff') format('woff'),
+         url('../webagency_images/fonts/Roboto-LightItalic-webfont.ttf') format('truetype'),
+         url('../webagency_images/fonts/Roboto-LightItalic-webfont.svg#robotolight_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'robotomedium';
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Medium-webfont.eot');
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Medium-webfont.woff2') format('woff2'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Medium-webfont.woff') format('woff'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Medium-webfont.ttf') format('truetype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Medium-webfont.svg#robotomedium') format('svg');
+    src: url('../webagency_images/fonts/Roboto-Medium-webfont.eot');
+    src: url('../webagency_images/fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webagency_images/fonts/Roboto-Medium-webfont.woff2') format('woff2'),
+         url('../webagency_images/fonts/Roboto-Medium-webfont.woff') format('woff'),
+         url('../webagency_images/fonts/Roboto-Medium-webfont.ttf') format('truetype'),
+         url('../webagency_images/fonts/Roboto-Medium-webfont.svg#robotomedium') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'robotomedium_italic';
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-MediumItalic-webfont.eot');
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-MediumItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-MediumItalic-webfont.woff2') format('woff2'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-MediumItalic-webfont.woff') format('woff'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-MediumItalic-webfont.ttf') format('truetype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-MediumItalic-webfont.svg#robotomedium_italic') format('svg');
+    src: url('../webagency_images/fonts/Roboto-MediumItalic-webfont.eot');
+    src: url('../webagency_images/fonts/Roboto-MediumItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webagency_images/fonts/Roboto-MediumItalic-webfont.woff2') format('woff2'),
+         url('../webagency_images/fonts/Roboto-MediumItalic-webfont.woff') format('woff'),
+         url('../webagency_images/fonts/Roboto-MediumItalic-webfont.ttf') format('truetype'),
+         url('../webagency_images/fonts/Roboto-MediumItalic-webfont.svg#robotomedium_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'robotoregular';
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Regular-webfont.eot');
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Regular-webfont.woff2') format('woff2'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Regular-webfont.woff') format('woff'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Regular-webfont.ttf') format('truetype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    src: url('../webagency_images/fonts/Roboto-Regular-webfont.eot');
+    src: url('../webagency_images/fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webagency_images/fonts/Roboto-Regular-webfont.woff2') format('woff2'),
+         url('../webagency_images/fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('../webagency_images/fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../webagency_images/fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'robotothin';
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Thin-webfont.eot');
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Thin-webfont.woff2') format('woff2'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Thin-webfont.woff') format('woff'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Thin-webfont.ttf') format('truetype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-Thin-webfont.svg#robotothin') format('svg');
+    src: url('../webagency_images/fonts/Roboto-Thin-webfont.eot');
+    src: url('../webagency_images/fonts/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webagency_images/fonts/Roboto-Thin-webfont.woff2') format('woff2'),
+         url('../webagency_images/fonts/Roboto-Thin-webfont.woff') format('woff'),
+         url('../webagency_images/fonts/Roboto-Thin-webfont.ttf') format('truetype'),
+         url('../webagency_images/fonts/Roboto-Thin-webfont.svg#robotothin') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'robotothin_italic';
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-ThinItalic-webfont.eot');
-    src: url('projet 1 classrooms/webagency_images/fonts/Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-ThinItalic-webfont.woff2') format('woff2'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-ThinItalic-webfont.woff') format('woff'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-ThinItalic-webfont.ttf') format('truetype'),
-         url('projet 1 classrooms/webagency_images/fonts/Roboto-ThinItalic-webfont.svg#robotothin_italic') format('svg');
+    src: url('../webagency_images/fonts/Roboto-ThinItalic-webfont.eot');
+    src: url('../webagency_images/fonts/Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webagency_images/fonts/Roboto-ThinItalic-webfont.woff2') format('woff2'),
+         url('../webagency_images/fonts/Roboto-ThinItalic-webfont.woff') format('woff'),
+         url('../webagency_images/fonts/Roboto-ThinItalic-webfont.ttf') format('truetype'),
+         url('../webagency_images/fonts/Roboto-ThinItalic-webfont.svg#robotothin_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
-
 
 
 								/* taille + color des paragraphe ,titres , ect.. */
@@ -173,6 +173,10 @@ span
     font-size: 25px;
 }
 
+img {
+    max-width: 100%;
+}
+
 
 
 
@@ -194,10 +198,7 @@ span
     opacity: 1;
     border: 2px solid #5CADD3;
     background-color: #5CADD3;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    padding: 10px;
 }
                                     /*MENU*/
 
@@ -207,7 +208,7 @@ a /* a pour les liens */
     color: black;
 }
 .menu
-{   
+{
     float: right;
 	text-align: right;
 	margin-top: 60px;
@@ -224,29 +225,61 @@ a /* a pour les liens */
 	margin-right: 25px;
 }
 
-                            /*SLIDER*/
+/*** START SLIDER ****/
 .slider
 {
-    margin-left: 120px;
+    position: relative;
     margin-top: 100px;
     opacity: 1;
-}                            
+    overflow: hidden;
+
+}
 .texteslider, .texteslider + p, .texteslider + h2
 {
-  
+
     color: white;
     margin-top: -350px;
     margin-left: 200px;
+    position: relative;
+    z-index: 10;
 }
 .texteslider + p
 {
     font-size: 16px;
-    
+
 }
 .texteslider + h2
 {
+    position: relative;
+    z-index: 10;
     font-size: 20px;
-}  
+}
+
+.slider-icon {
+    position: absolute;
+    left: -5px;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.border-bottom-slider {
+    width: 100px;
+    height: 3px;
+    background: #5CADD3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/*** END SLIDER ****/
+
+
                             /*  Colonne SERVICES*/
 .contenu_1
 {
@@ -316,10 +349,7 @@ td
     font-size: 20px;
     background-color: #5CADD3;
     color: white;
-    padding-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
+    padding: 15px;
     box-shadow: 0px 3px #468CAD;
     border-bottom-left-radius: 5px ;
     border-top-left-radius: 5px;
@@ -327,26 +357,17 @@ td
 .creative
 {
     font-size: 20px;
-    padding-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 20px;
-    padding-left: 15px;
+    padding: 15px 15px 20px;
 }
 .corporate
 {
     font-size: 20px;
-    padding-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
+    padding: 15px;
 }
 .portfolio
 {
     font-size: 20px;
-    padding-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
+    padding: 15px;
 }
 .webagency_images
 {
@@ -372,7 +393,7 @@ td
     opacity: 0.5;
 }
 .cadre
-{   
+{
     background-color: #F5F5DC;
     float: right;
     margin-right: 100px;
@@ -380,7 +401,7 @@ td
     display: block;
     height: 600px;
     width: 350px;
-    
+
     opacity: 0.9;
 }
 .position_fond
@@ -398,7 +419,7 @@ h2 + p
     padding-top: 10px;
 }
 .align
-{   
+{
     display: block;
     text-align: justify;
     margin-bottom: 20px;
@@ -416,16 +437,15 @@ h2 + p
 .align_2
 {
     border-radius: 5px;
-    border-bottom-left-radius: 5px ;
+    border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
     background-color: #5CADD3;
-    box-shadow: 0px 3px #468CAD;
+    border-color: #5CADD3;
+    box-shadow: 0px 2px #468CAD;
     color: white;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-left: 10px;
+    padding: 7px;
     opacity: 1;
+}
 }
 .trait
 {
